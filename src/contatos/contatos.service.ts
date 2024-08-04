@@ -3,6 +3,7 @@ import { CreateContatoDto } from './dto/create-contato.dto';
 import { UpdateContatoDto } from './dto/update-contato.dto';
 import { Contato } from './entities/contato.entity';
 import { ReadContatoDto } from './dto/read-contato.dto';
+import { AtividadesService } from 'src/atividades/atividades.service';
 
 @Injectable()
 export class ContatosService {
